@@ -1,0 +1,10 @@
+Saved/
+Intermediate/
+Content/StarterContent
+Binaries/
+.vs/
+
+*.VC.db
+*.VC.opendb
+
+
