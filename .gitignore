@@ -1,6 +1,6 @@
 Saved/
 Intermediate/
-Content/StarterContent
+
 Binaries/
 .vs/
 
@@ -8,3 +8,4 @@ Binaries/
 *.VC.opendb
 
 
+*.tmp

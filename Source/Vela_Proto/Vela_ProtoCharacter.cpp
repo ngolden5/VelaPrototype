@@ -205,7 +205,7 @@ void AVela_ProtoCharacter::OnFire()
 				ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
 
 				// spawn the projectile at the muzzle
-				World->SpawnActor<AGun_ExamineProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+				World->SpawnActor<AGun_ExamineProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams); //Where the particle magic happens.
 		
 		}
 	}
